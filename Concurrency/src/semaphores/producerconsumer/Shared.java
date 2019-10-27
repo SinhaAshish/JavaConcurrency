@@ -3,6 +3,7 @@ package semaphores.producerconsumer;
 import java.util.concurrent.Semaphore;
 
 public class Shared {
+
 	int n;
 	
 	static Semaphore semCon=new Semaphore(0);
@@ -11,6 +12,7 @@ public class Shared {
 	public void get()
 	{
 		try{
+// lock acquired
 			semCon.acquire();
 			
 		}

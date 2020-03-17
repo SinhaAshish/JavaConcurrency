@@ -13,6 +13,7 @@ public class CountDownLatchDemo {
 		}
 		catch(InterruptedException e)
 		{ 
+System.out.println("help");
 			System.out.println(e);
 		}
 		System.out.println(" The main is done");
